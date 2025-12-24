@@ -1,0 +1,209 @@
+%----------------------------------------------------------------------------------------
+% Modules
+%----------------------------------------------------------------------------------------
+\documentclass{resume}
+\usepackage{newcent}
+
+%----------------------------------------------------------------------------------------
+% Configuration
+%----------------------------------------------------------------------------------------
+\geometry{top=0.75in, bottom=0.75in, left=0.75in, right=0.75in}
+\resumesetup{
+    section-before-sep=1em,
+}
+
+%----------------------------------------------------------------------------------------
+% Header variable declarations
+%----------------------------------------------------------------------------------------
+\name{Lukas J. Vasadi}
+\address{891 Massachusetts Ave, Cambridge MA}
+\email{lukas.vasadi@gmail.com}
+\phone{+1 (857) 320 5840}
+\linkedin{https://linkedin.com/in/lukasvasadi}
+\github{https://github.com/lukasvasadi}
+\website{https://lukasvasadi.dev}
+
+%----------------------------------------------------------------------------------------
+% Document creation
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% Work experience
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Experience]
+	\begin{employer}[
+			name=Cellino Biotech Inc.,
+			location=Cambridge MA,
+			dates=May 2021 -- Present,
+		]
+		\begin{role}[
+				title=Software Engineering Team Lead,
+				dates=Oct 2025 -- Present,
+			]
+			\item Led development of the \textit{Nebula} stem cell production system control software
+			\item Instituted a bioengineering feature request pipeline to eliminate conflicting work streams
+			\item Formalized hiring process and created a technical challenge that modeled work environment
+			\item Identified various cost savings opportunities that totaled over \$70k
+		\end{role}
+		\begin{role}[
+				title=Senior Engineer,
+				dates=Jun 2023 -- Oct 2025,
+			]
+			\item Architected the company \textit{de facto} standard for high-level instrument control applications
+			\item Developed an instrument controller to automate cell imaging and scanning experiments
+			\item Wrote a desktop application to command instrument and view real-time data streams via TCP
+		\end{role}
+		\begin{role}[
+				title=Engineer,
+				dates=May 2021 -- May 2023,
+			]
+			\item Designed a concept high-speed microscopy instrument that doubled sample throughput
+			\item Conducted optical experiments to evaluate quantitative phase imaging for cell detection
+			\item Developed a desktop application for experimenters to ``annotate'' images for laser cell removal
+		\end{role}
+	\end{employer}
+
+	\begin{employer}[
+			name=Abselion Ltd.,
+			location=Cambridge UK,
+			dates=Feb 2019 -- Apr 2021,
+		]
+		\begin{role}[
+				title=Engineer,
+			]
+			\item Prototyped a biomolecule sensing platform that helped raise over £2m in seed funding
+			\item Designed and fabricated biosensing transistors using MEMS manufacturing techniques
+			\item Created PCBs and firmware to modulate/record electrode potentials in electrochemical cell
+			\item Developed a low-cost consumable sensor package that saved over £600k in development cost
+			\item Assembled mechatronic liquid handling instruments to automate biochemical experiments
+		\end{role}
+	\end{employer}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+% Education
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Education]
+	\begin{institution}[
+			name=Cambridge University,
+			location=Cambridge UK
+		]
+		\begin{degree}[
+				name={MPhil Engineering, Whitaker International Fellow},
+				awarddate=2018
+			]
+			Thesis: On simulating respiration mechanics in 3D trachea tissue cultures
+		\end{degree}
+	\end{institution}
+
+	\begin{institution}[
+			name=Stony Brook University,
+			location=Stony Brook NY
+		]
+		\begin{degree}[
+				name={BE Biomedical Engineering, Minor Writing \& Rhetoric, \textit{Magna Cum Laude}},
+				awarddate=2016
+			]
+			Provost's Award for Academic Excellence, Richard W. Reeder Endowed Scholarship
+
+			Department teaching assistant for solid mechanics and research methods courses
+		\end{degree}
+	\end{institution}
+\end{resumesection}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+% Skills
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Skills]
+	\skillset{Programming}{C/C++, Python, JavaScript, HTML/CSS, \LaTeX}
+	\skillset{Frameworks / SDKs}{Qt, SvelteKit, Stm32}
+	\skillset{Design}{SolidWorks, Eagle, AutoCAD}
+	\skillset{Fabrication}{Lithography, Thin-Film Deposition, Chemical Etching}
+
+	% Alternative API design
+	% \skill{Programming}{Python}{Advanced}
+	% \skill{Programming}{C++}{Intermediate}
+	% \skill{Frameworks}{React}{Intermediate}
+	% \skill{Tools}{Git}{Advanced}
+	% \skill{Databases}{PostgreSQL}{Intermediate}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+% Internships
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Internships]
+	\program{Amgen Scholars Program, Columbia University}{2016}
+	\program{Summer Apprenticeship Program, NASA Johnson Space Center}{2015}
+	\program{Summer Undergraduate Research Program, NYU Hospital for Joint Diseases}{2014}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+% Select Awards
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Select Awards]
+	\program{Whitaker International Fellowship, Whitaker Foundation}{2017}
+	\program{Distinguished Athlete Award, United States Marine Corps}{2012}
+	\program{Sportsmanship Award, New York State Public High School Athletic Association}{2012}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+% Patents
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Patents]
+	\patentieee{
+		url={https://patents.google.com/patent/US20230065504A1/},
+		title=Platforms and Systems for Automated Cell Culture,
+		authors={M. Wagner, S. Avivo, et al.},
+		type={U.S. Patent},
+		number={17/930,413},
+		date={Mar 19, 2024},
+	}
+	\patentieee{
+		url={https://patents.google.com/patent/US20240302394A1/en},
+		title=System and Methods for Dipping Electrical Sensor for Measuring Properties of Molecules,
+		authors={A.M. Patil, P. Romele, et al.},
+		type={US Patent Appl.},
+		number={18/574,368},
+		date={Jul 7, 2022},
+	}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+% Conference Abstracts
+%----------------------------------------------------------------------------------------
+\begin{resumesection}[label=Select Conference Abstracts]
+	\abstractieee{
+		title={Biosensor for rapid detection of influenza with high sensitivity},
+		authors={L.J. Vasadi, R. Wang, et al.},
+		conference={Engineering in Medicine and Biology 41st Conference},
+		location=Berlin,
+		year=2019,
+	}
+	\abstractieee{
+		title={Simulating respiration mechanics in three-dimensional airway tissue cultures},
+		authors={L.J. Vasadi, Y. Liu, et al.},
+		conference={European Society of Biomechanics 25th Congress},
+		location=Vienna,
+		year=2019,
+	}
+	\abstractieee{
+		title={Microstructural and tissue-level mechanical changes in subchondral bone in osteoarthritis with/without type 2 diabetes},
+		authors={Y. Yu, L.J. Vasadi, et al.},
+		conference={Orthopedic Research Society Annual Meeting},
+		location=San Diego CA,
+		year=2017,
+	}
+	\abstractieee{
+		title={Recommended methods for monitoring skeletal health in astronauts to distinguish specific effects of prolonged spaceflight},
+		authors={L.J. Vasadi, E.R. Specter, et al.},
+		conference={Aerospace Medical Association 87th Annual Scientific Meeting},
+		location=Atlantic City CA,
+		year=2016,
+	}
+\end{resumesection}
+
+%----------------------------------------------------------------------------------------
+\end{document}

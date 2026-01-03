@@ -280,7 +280,10 @@
 % ------------------------------------------------------------------
 \cs_new_protected:Nn \__resume_program_renderer:nn
 {
-	{ \makebox[\linewidth][s]{#1 \hfill #2} \par }
+	\begin{tabular*}{\linewidth}{@{}p{0.8\linewidth}@{\extracolsep{\fill}}r@{}}
+		#1 & #2
+	\end{tabular*}
+	\par
 	\setlength{\parskip}{0.2\baselineskip}
 }
 

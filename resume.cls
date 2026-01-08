@@ -343,9 +343,8 @@
 
 	\tl_if_blank:VTF \l_resume_patent_url_tl
 	{ ``\l_resume_patent_title_tl,''\  }
-	{ ``\href{\l_resume_patent_url_tl}{\l_resume_patent_title_tl},''\  }
-
-	\l_resume_patent_type_tl\ No.\ \l_resume_patent_number_tl,\ \l_resume_patent_date_tl.
+	{ \href{\l_resume_patent_url_tl}{``\l_resume_patent_title_tl''\ \l_resume_patent_type_tl\ No.\ \l_resume_patent_number_tl},\  }
+	\l_resume_patent_date_tl.
 
 	\par
 
